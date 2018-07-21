@@ -1,1 +1,1 @@
-part_1
+使用next的生命周期函数getInitialProps替换掉componentDidMount
