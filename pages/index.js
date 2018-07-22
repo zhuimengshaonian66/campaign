@@ -40,9 +40,9 @@ return <Card.Group items={items}/>;
       <div>
       <h3>众筹列表</h3>
       <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"></link>
-      {this.renderCampains()}
-      <Button content="创建众筹"  icon="add circle"  primary/>
 
+      <Button floated="right" content="创建众筹"  icon="add circle"  primary/>
+    {this.renderCampains()}
       </div>
       </Layout>
     );
