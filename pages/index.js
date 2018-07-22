@@ -1,6 +1,6 @@
 import React from 'react';
 import factory from '../ethereum/factory';
-
+import Layout from '../components/Layout';
 import {Card,Button} from 'semantic-ui-react';
 // export default ()=>{
 //
@@ -36,6 +36,7 @@ return <Card.Group items={items}/>;
 
     render(){
       return (
+        <Layout>
       <div>
       <h3>众筹列表</h3>
       <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"></link>
@@ -43,7 +44,7 @@ return <Card.Group items={items}/>;
       <Button content="创建众筹"  icon="add circle"  primary/>
 
       </div>
-
+      </Layout>
     );
     }
 }
