@@ -1,6 +1,11 @@
 
-part_3
+part_4
 
-添加<h3>总筹列表</h3>
+新建layout.js 遗忘了一部
+header
+...child
+foot 
 
-2、添加UI——Button
+演示react的child特性，
+
+借助menu添加了导航栏
