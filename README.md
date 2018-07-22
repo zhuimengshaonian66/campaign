@@ -1,11 +1,6 @@
 
-part_4
+part_5
 
-新建layout.js 遗忘了一部
-header
-...child
-foot 
+添加了container，页面布局优化，添加了margintop：'10px' ，上间隔增加，
 
-演示react的child特性，
-
-借助menu添加了导航栏
+为按钮加了右浮动，并且调整了顺序，保证了按钮在列表的右边
